@@ -11,6 +11,7 @@ const ExploreCard = ({ id, imgUrl, title, active, index, handleClick }) => (
       active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s]
       ease-out-flex cursor-pointer`}
+    onTap={handleClick}
   >
     <img src={imgUrl} className="absolute w-full h-full object-cover rounded-[24px]" />
     {active !== id ? (
@@ -25,7 +26,6 @@ const ExploreCard = ({ id, imgUrl, title, active, index, handleClick }) => (
       </div>
     )}
   </motion.div>
-  //   <img src={imgUrl} />
 );
 
 export default ExploreCard;
