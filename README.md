@@ -29,6 +29,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+project available on
+
+`https://metaverse-ui-chz5-git-main-debjitroys-projects.vercel.app/`
+
 Run
 `npx eslint . --fix`
 
